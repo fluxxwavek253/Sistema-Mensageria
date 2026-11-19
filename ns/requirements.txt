@@ -1,0 +1,15 @@
+# Mini Mensageria - Pub/Sub em Python
+
+Sistema simples de mensageria para estudo de arquitetura assíncrona.
+
+## Como rodar
+python main.py
+
+## Como funciona
+Producer -> Broker (fila por tópico) -> Consumer (processa em background)
+
+## Conceitos demonstrados
+- Desacoplamento
+- Comunicação assíncrona
+- Pub/Sub: 1 mensagem, vários consumidores
+- Resiliência: mensagem fica na fila se consumidor cair
